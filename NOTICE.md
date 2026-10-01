@@ -15,4 +15,4 @@
 
 ## 再分发状态
 
-上游为 MIT 许可，署名义务由本文件与各产物头部的 AUTHOR/REPO 注释履行。面向商业产品再分发的正式条款审查仍在进行中（xbond 仓库 `docs/specs/subscription-rendering.md` 未决决策 2），审查结论不会改变本署名文件的存在。
+上游为 MIT 许可，署名义务由本文件与各产物头部的 AUTHOR/REPO 注释履行。再分发许可已核实（2026-10-01）：允许商业产品再分发；xbond 仓库 `docs/specs/subscription-rendering.md` 对应未决决策已关闭。
