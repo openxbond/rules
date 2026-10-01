@@ -1,0 +1,158 @@
+# =====================================
+# 自定义规则配置文件
+# =====================================
+#
+# 规则格式：<文件路径> <操作> <规则内容>
+#
+# 文件路径：
+#   - 支持相对路径（相对于clash目录）
+#   - 自动添加.list后缀（如果没有）
+#   - 示例: HongKong, Telegram.list
+#
+# 操作类型：
+#   + : 添加规则到文件
+#   - : 从文件中删除规则
+#
+# 规则内容：
+#   必须是有效的Clash规则格式
+#   支持的类型: DOMAIN, DOMAIN-SUFFIX, DOMAIN-KEYWORD, IP-CIDR, IP-CIDR6, GEOIP, DST-PORT, SRC-PORT, PROCESS-NAME, RULE-SET
+#
+# 示例：
+#   HongKong.list + DOMAIN-SUFFIX,example.hk
+#   Telegram.list - DOMAIN-SUFFIX,t.me
+#   Apple.list + IP-CIDR,17.0.0.0/8
+#
+# =====================================
+
+# Telegram规则自定义
+# Telegram.list + DOMAIN-SUFFIX,telegram.org
+# Telegram.list + DOMAIN-SUFFIX,telegra.ph
+
+# Apple服务规则调整
+# Apple.list + DOMAIN-SUFFIX,apple.com.cn
+# Apple.list - DOMAIN-SUFFIX,old-service.apple.com
+
+# 自定义代理规则
+# Proxy.list + DOMAIN-SUFFIX,example-proxy.com
+# Proxy.list + DOMAIN-KEYWORD,proxy
+
+# 直连规则补充
+# Direct.list + DOMAIN-SUFFIX,local-service.com
+# Direct.list + IP-CIDR,192.168.0.0/16
+
+ChinaDNS.list + IP-CIDR,223.5.5.5/32
+ChinaDNS.list + IP-CIDR,223.6.6.6/32
+ChinaDNS.list + IP-CIDR6,2400:3200::1/128
+ChinaDNS.list + IP-CIDR6,2400:3200:baba::1/128
+ChinaDNS.list + IP-CIDR,119.29.29.29/32
+ChinaDNS.list + IP-CIDR,183.60.82.98/32
+ChinaDNS.list + IP-CIDR6,2402:4e00::/128
+ChinaDNS.list + IP-CIDR6,2402:4e00:1::/128
+ChinaDNS.list + IP-CIDR,101.226.4.6/32
+ChinaDNS.list + IP-CIDR,218.30.118.6/32
+ChinaDNS.list + IP-CIDR,123.125.81.6/32
+ChinaDNS.list + IP-CIDR,140.207.198.6/32
+
+HongKong.list + DOMAIN-SUFFIX,.hk
+
+Copilot.list + DOMAIN-SUFFIX,githubcopilot.com
+
+Jsdelivr.list + DOMAIN-SUFFIX,globalping.io
+
+Salad.list + DOMAIN-SUFFIX,.salad.io
+Salad.list + DOMAIN-SUFFIX,.salad.com
+
+Tailscale.list + DOMAIN-SUFFIX,.tailscale.com
+Tailscale.list + IP-CIDR,192.200.0.0/24
+Tailscale.list + IP-CIDR,2606:B740:49::/48
+Tailscale.list + IP-CIDR,199.165.136.0/24
+Tailscale.list + IP-CIDR,2606:B740:1::/48
+
+
+CloudflareTunnel.list + DOMAIN-SUFFIX,.argotunnel.com
+CloudflareTunnel.list + IP-CIDR,198.41.218.1/32
+CloudflareTunnel.list + IP-CIDR,198.41.218.2/32
+CloudflareTunnel.list + IP-CIDR,198.41.218.3/32
+CloudflareTunnel.list + IP-CIDR,198.41.218.4/32
+CloudflareTunnel.list + IP-CIDR,198.41.218.5/32
+CloudflareTunnel.list + IP-CIDR,198.41.218.6/32
+CloudflareTunnel.list + IP-CIDR,198.41.218.7/32
+CloudflareTunnel.list + IP-CIDR,198.41.218.8/32
+CloudflareTunnel.list + IP-CIDR,198.41.218.9/32
+CloudflareTunnel.list + IP-CIDR,198.41.218.10/32
+CloudflareTunnel.list + IP-CIDR,198.41.219.1/32
+CloudflareTunnel.list + IP-CIDR,198.41.219.2/32
+CloudflareTunnel.list + IP-CIDR,198.41.219.3/32
+CloudflareTunnel.list + IP-CIDR,198.41.219.4/32
+CloudflareTunnel.list + IP-CIDR,198.41.219.5/32
+CloudflareTunnel.list + IP-CIDR,198.41.219.6/32
+CloudflareTunnel.list + IP-CIDR,198.41.219.7/32
+CloudflareTunnel.list + IP-CIDR,198.41.219.8/32
+CloudflareTunnel.list + IP-CIDR,198.41.219.9/32
+CloudflareTunnel.list + IP-CIDR,198.41.219.10/32
+CloudflareTunnel.list + IP-CIDR,198.41.192.167/32
+CloudflareTunnel.list + IP-CIDR,198.41.192.67/32
+CloudflareTunnel.list + IP-CIDR,198.41.192.57/32
+CloudflareTunnel.list + IP-CIDR,198.41.192.107/32
+CloudflareTunnel.list + IP-CIDR,198.41.192.27/32
+CloudflareTunnel.list + IP-CIDR,198.41.192.7/32
+CloudflareTunnel.list + IP-CIDR,198.41.192.227/32
+CloudflareTunnel.list + IP-CIDR,198.41.192.47/32
+CloudflareTunnel.list + IP-CIDR,198.41.192.37/32
+CloudflareTunnel.list + IP-CIDR,198.41.200.13/32
+CloudflareTunnel.list + IP-CIDR,198.41.200.193/32
+CloudflareTunnel.list + IP-CIDR,198.41.200.33/32
+CloudflareTunnel.list + IP-CIDR,198.41.200.233/32
+CloudflareTunnel.list + IP-CIDR,198.41.200.53/32
+CloudflareTunnel.list + IP-CIDR,198.41.200.63/32
+CloudflareTunnel.list + IP-CIDR,198.41.200.113/32
+CloudflareTunnel.list + IP-CIDR,198.41.200.73/32
+CloudflareTunnel.list + IP-CIDR,198.41.200.43/32
+CloudflareTunnel.list + IP-CIDR,198.41.200.23/32
+
+CloudflareTunnel.list + IP-CIDR6,2606:4700:a0::1/128
+CloudflareTunnel.list + IP-CIDR6,2606:4700:a0::2/128
+CloudflareTunnel.list + IP-CIDR6,2606:4700:a0::3/128
+CloudflareTunnel.list + IP-CIDR6,2606:4700:a0::4/128
+CloudflareTunnel.list + IP-CIDR6,2606:4700:a0::5/128
+CloudflareTunnel.list + IP-CIDR6,2606:4700:a0::6/128
+CloudflareTunnel.list + IP-CIDR6,2606:4700:a0::7/128
+CloudflareTunnel.list + IP-CIDR6,2606:4700:a0::8/128
+CloudflareTunnel.list + IP-CIDR6,2606:4700:a0::9/128
+CloudflareTunnel.list + IP-CIDR6,2606:4700:a0::10/128
+CloudflareTunnel.list + IP-CIDR6,2606:4700:a8::1/128
+CloudflareTunnel.list + IP-CIDR6,2606:4700:a8::2/128
+CloudflareTunnel.list + IP-CIDR6,2606:4700:a8::3/128
+CloudflareTunnel.list + IP-CIDR6,2606:4700:a8::4/128
+CloudflareTunnel.list + IP-CIDR6,2606:4700:a8::5/128
+CloudflareTunnel.list + IP-CIDR6,2606:4700:a8::6/128
+CloudflareTunnel.list + IP-CIDR6,2606:4700:a8::7/128
+CloudflareTunnel.list + IP-CIDR6,2606:4700:a8::8/128
+CloudflareTunnel.list + IP-CIDR6,2606:4700:a8::9/128
+CloudflareTunnel.list + IP-CIDR6,2606:4700:a8::10/128
+CloudflareTunnel.list + IP-CIDR6,2606:4700:a1::1/128
+CloudflareTunnel.list + IP-CIDR6,2606:4700:a1::2/128
+CloudflareTunnel.list + IP-CIDR6,2606:4700:a1::3/128
+CloudflareTunnel.list + IP-CIDR6,2606:4700:a1::4/128
+CloudflareTunnel.list + IP-CIDR6,2606:4700:a1::5/128
+CloudflareTunnel.list + IP-CIDR6,2606:4700:a1::6/128
+CloudflareTunnel.list + IP-CIDR6,2606:4700:a1::7/128
+CloudflareTunnel.list + IP-CIDR6,2606:4700:a1::8/128
+CloudflareTunnel.list + IP-CIDR6,2606:4700:a1::9/128
+CloudflareTunnel.list + IP-CIDR6,2606:4700:a1::10/128
+CloudflareTunnel.list + IP-CIDR6,2606:4700:a9::1/128
+CloudflareTunnel.list + IP-CIDR6,2606:4700:a9::2/128
+CloudflareTunnel.list + IP-CIDR6,2606:4700:a9::3/128
+CloudflareTunnel.list + IP-CIDR6,2606:4700:a9::4/128
+CloudflareTunnel.list + IP-CIDR6,2606:4700:a9::5/128
+CloudflareTunnel.list + IP-CIDR6,2606:4700:a9::6/128
+CloudflareTunnel.list + IP-CIDR6,2606:4700:a9::7/128
+CloudflareTunnel.list + IP-CIDR6,2606:4700:a9::8/128
+CloudflareTunnel.list + IP-CIDR6,2606:4700:a9::9/128
+CloudflareTunnel.list + IP-CIDR6,2606:4700:a9::10/128
+
+Claude.list + DOMAIN-SUFFIX,claude.com
+
+ChatGLM.list + DOMAIN-SUFFIX,bigmodel.cn
+ChatGLM.list + DOMAIN-SUFFIX,chatglm.cn
+ChatGLM.list + DOMAIN-SUFFIX,z.ai
