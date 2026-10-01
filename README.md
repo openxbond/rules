@@ -29,4 +29,4 @@ https://cdn.jsdelivr.net/gh/openxbond/rules@<tag>/singbox/OpenAI.json
 
 ## 许可
 
-本仓库代码 MIT。规则数据来自上游开源项目，署名与来源见 `NOTICE.md`；再分发许可的正式审查进行中（见 xbond 仓库 `docs/specs/subscription-rendering.md` 未决决策）。
+本仓库代码 MIT。规则数据来自上游开源项目（MIT，允许再分发），署名与来源见 `NOTICE.md`。
