@@ -1,0 +1,42 @@
+name: sync
+
+on:
+  schedule:
+    # 每周一 03:17 UTC；错开整点避免高峰
+    - cron: "17 3 * * 1"
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      - name: Sync upstream and rebuild artifacts
+        run: bash scripts/sync.sh
+
+      - name: Commit and tag release when changed
+        run: |
+          if [ -z "$(git status --porcelain -- clash clash-yaml singbox index.json)" ]; then
+            echo "No rule changes; skipping release."
+            exit 0
+          fi
+          git config user.name "rules-sync-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add clash clash-yaml singbox index.json
+          git commit -m "sync: $(date -u +%F)"
+          tag="v$(date -u +%Y.%-m.%-d)"
+          if git rev-parse "$tag" >/dev/null 2>&1; then
+            # 同日重跑：删除旧 tag 重打，release 永远指向最新一次同步
+            git tag -f "$tag"
+          else
+            git tag "$tag"
+          fi
+          git push origin HEAD "refs/tags/$tag" --force
