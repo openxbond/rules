@@ -24,6 +24,8 @@ while IFS= read -r category; do
   src="$UPSTREAM/rule/Clash/$category/$category.list"
   if [ -f "$src" ]; then
     cp "$src" "$ROOT/clash/$category.list"
+  elif head -n1 "$ROOT/clash/$category.list" 2>/dev/null | grep -q '^# CUSTOM'; then
+    : # self-owned category: rules live in custom-rules.txt
   else
     echo "WARN: upstream no longer has $category" >&2
   fi

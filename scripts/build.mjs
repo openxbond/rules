@@ -51,13 +51,22 @@ function applyCustomRules(id, lines) {
   return result;
 }
 
-// .list → clash classical payload lines (comments and blanks dropped)
+// .list → clash classical payload lines (comments and blanks dropped). The
+// custom-rules result is written back so the .list itself carries it; header
+// comments are kept, and reapplying is a no-op (adds dedupe).
 function payloadLines(id) {
-  const raw = readFileSync(join(clashDir, `${id}.list`), "utf8")
+  const file = join(clashDir, `${id}.list`);
+  const all = readFileSync(file, "utf8")
     .split("\n")
     .map((line) => line.trim())
-    .filter((line) => line && !line.startsWith("#"));
-  return applyCustomRules(id, raw);
+    .filter(Boolean);
+  const comments = all.filter((line) => line.startsWith("#"));
+  const lines = applyCustomRules(
+    id,
+    all.filter((line) => !line.startsWith("#")),
+  );
+  writeFileSync(file, `${[...comments, ...lines].join("\n")}\n`);
+  return lines;
 }
 
 function countPrefix(lines, prefix) {

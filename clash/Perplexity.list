@@ -1,0 +1,4 @@
+# CUSTOM: Perplexity — 上游无此分类，规则全部维护在 custom-rules.txt
+DOMAIN-SUFFIX,perplexity.ai
+DOMAIN-SUFFIX,perplexity.com
+DOMAIN-SUFFIX,pplx.ai
