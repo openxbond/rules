@@ -1,0 +1,31 @@
+{
+  "version": 2,
+  "rules": [
+    {
+      "domain": [
+        "developers.google.com",
+        "cloud.google.com",
+        "console.cloud.google.com",
+        "firebase.google.com",
+        "console.firebase.google.com",
+        "colab.research.google.com"
+      ]
+    },
+    {
+      "domain_suffix": [
+        "android.com",
+        "googlesource.com",
+        "firebaseio.com",
+        "firebaseapp.com",
+        "web.dev",
+        "go.dev",
+        "golang.org",
+        "flutter.dev",
+        "dart.dev",
+        "pub.dev",
+        "tensorflow.org",
+        "chromium.org"
+      ]
+    }
+  ]
+}

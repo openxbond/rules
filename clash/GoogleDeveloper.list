@@ -1,0 +1,19 @@
+# CUSTOM: GoogleDeveloper — 上游无此分类，规则全部维护在 custom-rules.txt
+DOMAIN,developers.google.com
+DOMAIN,cloud.google.com
+DOMAIN,console.cloud.google.com
+DOMAIN,firebase.google.com
+DOMAIN,console.firebase.google.com
+DOMAIN,colab.research.google.com
+DOMAIN-SUFFIX,android.com
+DOMAIN-SUFFIX,googlesource.com
+DOMAIN-SUFFIX,firebaseio.com
+DOMAIN-SUFFIX,firebaseapp.com
+DOMAIN-SUFFIX,web.dev
+DOMAIN-SUFFIX,go.dev
+DOMAIN-SUFFIX,golang.org
+DOMAIN-SUFFIX,flutter.dev
+DOMAIN-SUFFIX,dart.dev
+DOMAIN-SUFFIX,pub.dev
+DOMAIN-SUFFIX,tensorflow.org
+DOMAIN-SUFFIX,chromium.org

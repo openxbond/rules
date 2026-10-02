@@ -1,0 +1,5 @@
+# CUSTOM: Cursor — 上游无此分类，规则全部维护在 custom-rules.txt
+DOMAIN-SUFFIX,cursor.com
+DOMAIN-SUFFIX,cursor.sh
+DOMAIN-SUFFIX,cursorapi.com
+DOMAIN-SUFFIX,cursor-cdn.com

@@ -10,7 +10,7 @@
 
 ## 自有修改
 
-- `custom-rules.txt` 记录的自有规则增删（如 Tailscale / Cloudflare Tunnel / ChatGLM / Claude 的补充域名与网段），随本仓库 MIT 许可发布。
+- `custom-rules.txt` 记录的自有规则增删（如 Tailscale / Cloudflare Tunnel / ChatGLM / Claude 的补充域名与网段，以及上游无对应的自有分类 Perplexity / Cursor / GoogleDeveloper），随本仓库 MIT 许可发布。
 - `scripts/` 派生管线为本仓库原创。
 
 ## 再分发状态

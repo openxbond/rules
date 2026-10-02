@@ -4,7 +4,7 @@
 
 ## 布局
 
-- `clash/*.list` — 工作源（上游同步 + `custom-rules.txt` 应用后的经典规则行），派生物由它生成
+- `clash/*.list` — 工作源（上游同步 + `custom-rules.txt` 应用后的经典规则行，由 `scripts/build.mjs` 写回），派生物由它生成
 - `clash-yaml/{id}.yaml` — Clash/mihomo rule-providers 产物（`behavior: classical, format: yaml`）
 - `singbox/{id}.json` — sing-box rule_set 产物（`type: remote, format: source`）
 - `index.json` — 自建索引：分类 → 各格式路径 + sha256，由 `scripts/build.mjs` 生成

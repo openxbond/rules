@@ -1,0 +1,29 @@
+# NAME: GoogleDeveloper
+# AUTHOR: blackmatrix7
+# REPO: https://github.com/blackmatrix7/ios_rule_script
+# UPDATED: 2026-10-02 13:44:50
+# DOMAIN: 6
+# DOMAIN-SUFFIX: 12
+# DOMAIN-KEYWORD: 0
+# IP-CIDR: 0
+# IP-CIDR6: 0
+# TOTAL: 18
+payload:
+  - DOMAIN,developers.google.com
+  - DOMAIN,cloud.google.com
+  - DOMAIN,console.cloud.google.com
+  - DOMAIN,firebase.google.com
+  - DOMAIN,console.firebase.google.com
+  - DOMAIN,colab.research.google.com
+  - DOMAIN-SUFFIX,android.com
+  - DOMAIN-SUFFIX,googlesource.com
+  - DOMAIN-SUFFIX,firebaseio.com
+  - DOMAIN-SUFFIX,firebaseapp.com
+  - DOMAIN-SUFFIX,web.dev
+  - DOMAIN-SUFFIX,go.dev
+  - DOMAIN-SUFFIX,golang.org
+  - DOMAIN-SUFFIX,flutter.dev
+  - DOMAIN-SUFFIX,dart.dev
+  - DOMAIN-SUFFIX,pub.dev
+  - DOMAIN-SUFFIX,tensorflow.org
+  - DOMAIN-SUFFIX,chromium.org

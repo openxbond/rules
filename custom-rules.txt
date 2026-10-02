@@ -156,3 +156,31 @@ Claude.list + DOMAIN-SUFFIX,claude.com
 ChatGLM.list + DOMAIN-SUFFIX,bigmodel.cn
 ChatGLM.list + DOMAIN-SUFFIX,chatglm.cn
 ChatGLM.list + DOMAIN-SUFFIX,z.ai
+# 自有分类（上游无对应，clash/<id>.list 仅含 # CUSTOM 头）
+Perplexity.list + DOMAIN-SUFFIX,perplexity.ai
+Perplexity.list + DOMAIN-SUFFIX,perplexity.com
+Perplexity.list + DOMAIN-SUFFIX,pplx.ai
+
+Cursor.list + DOMAIN-SUFFIX,cursor.com
+Cursor.list + DOMAIN-SUFFIX,cursor.sh
+Cursor.list + DOMAIN-SUFFIX,cursorapi.com
+Cursor.list + DOMAIN-SUFFIX,cursor-cdn.com
+
+GoogleDeveloper.list + DOMAIN,developers.google.com
+GoogleDeveloper.list + DOMAIN,cloud.google.com
+GoogleDeveloper.list + DOMAIN,console.cloud.google.com
+GoogleDeveloper.list + DOMAIN,firebase.google.com
+GoogleDeveloper.list + DOMAIN,console.firebase.google.com
+GoogleDeveloper.list + DOMAIN,colab.research.google.com
+GoogleDeveloper.list + DOMAIN-SUFFIX,android.com
+GoogleDeveloper.list + DOMAIN-SUFFIX,googlesource.com
+GoogleDeveloper.list + DOMAIN-SUFFIX,firebaseio.com
+GoogleDeveloper.list + DOMAIN-SUFFIX,firebaseapp.com
+GoogleDeveloper.list + DOMAIN-SUFFIX,web.dev
+GoogleDeveloper.list + DOMAIN-SUFFIX,go.dev
+GoogleDeveloper.list + DOMAIN-SUFFIX,golang.org
+GoogleDeveloper.list + DOMAIN-SUFFIX,flutter.dev
+GoogleDeveloper.list + DOMAIN-SUFFIX,dart.dev
+GoogleDeveloper.list + DOMAIN-SUFFIX,pub.dev
+GoogleDeveloper.list + DOMAIN-SUFFIX,tensorflow.org
+GoogleDeveloper.list + DOMAIN-SUFFIX,chromium.org
