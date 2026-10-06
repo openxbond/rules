@@ -28,8 +28,8 @@ jobs:
             echo "No rule changes; skipping release."
             exit 0
           fi
-          git config user.name "rules-sync-bot"
-          git config user.email "actions@users.noreply.github.com"
+          git config user.name "openxbond"
+          git config user.email "noreply@xbond.net"
           git add clash clash-yaml singbox index.json
           git commit -m "sync: $(date -u +%F)"
           tag="v$(date -u +%Y.%-m.%-d)"
