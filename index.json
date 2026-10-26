@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-10-19T08:46:43.083Z",
+  "generated_at": "2026-10-26T08:49:00.366Z",
   "upstream": "blackmatrix7/ios_rule_script",
   "categories": [
     {
@@ -8,11 +8,11 @@
       "formats": {
         "clash": {
           "path": "clash-yaml/Lan.yaml",
-          "sha256": "1125348a6fd8ff0857cfac7264802e70d9582416dbab6cb06ddbd3afabb1735f"
+          "sha256": "b763a6621d2d8c20cdeed6ef51577d59e51e64eced9d7be6dca49252e237a8d6"
         },
         "singbox": {
           "path": "singbox/Lan.json",
-          "sha256": "22d124bd14284a69d5443f1ab94230c3de9aa3e39c185402a9a4319305c7e4c0"
+          "sha256": "52026e7e3cb5b3e9a5c564e526d385bdf87a2ddd9740ab155cab24262a3d562a"
         }
       }
     },
@@ -21,7 +21,7 @@
       "formats": {
         "clash": {
           "path": "clash-yaml/AdvertisingLite.yaml",
-          "sha256": "175a38010539fd717ff3828a4a713f73f6b5a65e3b9a0f022f25f5ff3ba7cf9c"
+          "sha256": "09a3831e4e7a0e665ed86b078d458ee28724ff71b0518d1a1370a57768fec0db"
         },
         "singbox": {
           "path": "singbox/AdvertisingLite.json",
@@ -34,7 +34,7 @@
       "formats": {
         "clash": {
           "path": "clash-yaml/PrivateTracker.yaml",
-          "sha256": "fb177595c391cc6b1e99532ad98d73d31d845f6ea67740b98b3c022fad04830d"
+          "sha256": "13f89950daee30ae7e7b84499c62bcf88a5c2c0c5564c7ee83178f9901768c39"
         },
         "singbox": {
           "path": "singbox/PrivateTracker.json",
@@ -47,7 +47,7 @@
       "formats": {
         "clash": {
           "path": "clash-yaml/AdobeActivation.yaml",
-          "sha256": "df4b01381dded917bdca1b15d4380a28042eee3479c14a1da1eef9e0fc294bd8"
+          "sha256": "1a86df2fbae7996947ccdd10d710d2715efae375cecff35791f3f3c933f57805"
         },
         "singbox": {
           "path": "singbox/AdobeActivation.json",
@@ -60,7 +60,7 @@
       "formats": {
         "clash": {
           "path": "clash-yaml/ChatGLM.yaml",
-          "sha256": "47c9257ecd0e2fcaff75a602de146319e6ae5980fb25fc7d79edefc38e4ff10c"
+          "sha256": "c090c166caa4e600c4bb0fe98ba49426ede9ca7f958368c54756982d76e50969"
         },
         "singbox": {
           "path": "singbox/ChatGLM.json",
@@ -73,7 +73,7 @@
       "formats": {
         "clash": {
           "path": "clash-yaml/OpenAI.yaml",
-          "sha256": "6c9bb37a83fab3265ce1764dec22cd4e6fb35013b85bc7b2ceb7c57a30d9c24f"
+          "sha256": "a0984f0a9b24040b75c45fee9519478705db74a6901bdfa114c8f76163cbef6d"
         },
         "singbox": {
           "path": "singbox/OpenAI.json",
@@ -86,7 +86,7 @@
       "formats": {
         "clash": {
           "path": "clash-yaml/Claude.yaml",
-          "sha256": "403c46632c21285ab1068ad5d7d2f788b2209f377dad54fcc56283622c54139e"
+          "sha256": "b98063757b4923a540b908912d20bc8e42612f56c824031e71efdfef09f5e1d4"
         },
         "singbox": {
           "path": "singbox/Claude.json",
@@ -99,7 +99,7 @@
       "formats": {
         "clash": {
           "path": "clash-yaml/Gemini.yaml",
-          "sha256": "8932f8eeb8624dcac61c2fc4e41a8979b8089f27be7ff02a45d5b209bcfb48cb"
+          "sha256": "ae5c6bd495aa33608b3cdcee25196cf43dfe63b7b3338d63576aeb724c25dc14"
         },
         "singbox": {
           "path": "singbox/Gemini.json",
@@ -112,7 +112,7 @@
       "formats": {
         "clash": {
           "path": "clash-yaml/Copilot.yaml",
-          "sha256": "41a4347d0017dc3dc35c09829d0225c9b005cd89bfdf8807e593383a41048b3b"
+          "sha256": "e240a9bad0ec6237971578ce92c1654bd601d5ac73b995fbb33c841f2970b4cf"
         },
         "singbox": {
           "path": "singbox/Copilot.json",
@@ -125,7 +125,7 @@
       "formats": {
         "clash": {
           "path": "clash-yaml/BardAI.yaml",
-          "sha256": "1d4db7b732c0563e037c0d72ef883eb32a7b30f1d0076255e202fbd235b75cea"
+          "sha256": "ec9da823461e15912a27f01b5614e4233751d4e0f5742a45d33351641ee52e04"
         },
         "singbox": {
           "path": "singbox/BardAI.json",
@@ -138,7 +138,7 @@
       "formats": {
         "clash": {
           "path": "clash-yaml/Perplexity.yaml",
-          "sha256": "49a85b8d3b9f7128c3bf9836cb54749058342587535176971d06a44c21babf8e"
+          "sha256": "89fd440d7cf0a6deda2a06c2792496f14f92085b9c8f5226f6241ce69262b13b"
         },
         "singbox": {
           "path": "singbox/Perplexity.json",
@@ -151,7 +151,7 @@
       "formats": {
         "clash": {
           "path": "clash-yaml/Cursor.yaml",
-          "sha256": "7b69dcb10f490b88312009bff7626430bc113e4157ee5c44fe674ea00e647929"
+          "sha256": "8d888f65931544bee2309cf0c6e1eb28e3db3811b7055da3992124dfe5bfdbc2"
         },
         "singbox": {
           "path": "singbox/Cursor.json",
@@ -164,7 +164,7 @@
       "formats": {
         "clash": {
           "path": "clash-yaml/GitHub.yaml",
-          "sha256": "75501fb80cccf2c15104b698fe4ef12379d76a72b57b052e98f6dda173d1fcb3"
+          "sha256": "6094ce70717a38f1041c8393007647d1c6ecd1f857c0851d0c3b0e79d8ee8464"
         },
         "singbox": {
           "path": "singbox/GitHub.json",
@@ -177,7 +177,7 @@
       "formats": {
         "clash": {
           "path": "clash-yaml/Docker.yaml",
-          "sha256": "4de1c94e648ca5dd376e17cf95d0ac50d7a27a2524c002422696c3fafdb43e17"
+          "sha256": "6467fb366396c335b9925275bec73b27f0f71ed24e877ea48421d7f1889465a1"
         },
         "singbox": {
           "path": "singbox/Docker.json",
@@ -190,7 +190,7 @@
       "formats": {
         "clash": {
           "path": "clash-yaml/Npmjs.yaml",
-          "sha256": "2ee344da5f5caf3606e84f153ac85529c80a9dfc7ed9c9743fc60f8287fa7ccb"
+          "sha256": "4e0851e00aa65be2c2690d44349c8ab2907fad9462916042e1ceb8670c011598"
         },
         "singbox": {
           "path": "singbox/Npmjs.json",
@@ -203,7 +203,7 @@
       "formats": {
         "clash": {
           "path": "clash-yaml/GoogleDeveloper.yaml",
-          "sha256": "cccea1b8acd62438020d78e750113b61d842f86943318b4b71bbb328acd8893e"
+          "sha256": "c4d2d98604aa6c44d31c95e535dae02a44814a4da34c5077ccbf5ca90eddf5c5"
         },
         "singbox": {
           "path": "singbox/GoogleDeveloper.json",
@@ -216,7 +216,7 @@
       "formats": {
         "clash": {
           "path": "clash-yaml/Google.yaml",
-          "sha256": "25d521ed8925e088635f2c8950ec1ad1e10fb2e02d76f4f7353b5b9197b23f01"
+          "sha256": "c9e9e06d13f421a7bfb4bd60c99c6d409c71137c7f9fae693d3f949e34b2607c"
         },
         "singbox": {
           "path": "singbox/Google.json",
@@ -229,7 +229,7 @@
       "formats": {
         "clash": {
           "path": "clash-yaml/GoogleDrive.yaml",
-          "sha256": "a2ecda30ad53ab1a498734c4e1b07f37e04e44be44662c9691eed0cea070f363"
+          "sha256": "1baa1ae4c37777aa4aa77f33283cf625077283f3e65fb459fc9afcee9a5fd48a"
         },
         "singbox": {
           "path": "singbox/GoogleDrive.json",
@@ -242,7 +242,7 @@
       "formats": {
         "clash": {
           "path": "clash-yaml/YouTubeMusic.yaml",
-          "sha256": "fb9cadd537b02b3c218b8d7803980e8d0cd58e14554442c6b48ccf0b4e5b7ba4"
+          "sha256": "6e181a26b0a958efe7df2b4af525649234180bd08be0a79237b6da7afba98a28"
         },
         "singbox": {
           "path": "singbox/YouTubeMusic.json",
@@ -255,7 +255,7 @@
       "formats": {
         "clash": {
           "path": "clash-yaml/YouTube.yaml",
-          "sha256": "32a59c0b3fc5e7afe54220b3992e3620cf2262d35bb58cc3f8cddad57b2795a4"
+          "sha256": "264c4261aadb729f2e5b97e8dd5caf9b6086f6feb751c8a233940d1b06c70e67"
         },
         "singbox": {
           "path": "singbox/YouTube.json",
@@ -268,7 +268,7 @@
       "formats": {
         "clash": {
           "path": "clash-yaml/GoogleSearch.yaml",
-          "sha256": "4183576ad79d9f146e08f5d909813396de3f6b30a3d7187ccbc0f68a4b3b58ec"
+          "sha256": "ff66da234f57d5077cbad9bce73b9e604143343a71f845b209e2da64336cf196"
         },
         "singbox": {
           "path": "singbox/GoogleSearch.json",
@@ -281,7 +281,7 @@
       "formats": {
         "clash": {
           "path": "clash-yaml/GoogleVoice.yaml",
-          "sha256": "b5583fbb51419b4eda4716b62955fa8d6e4ef9a68864b66558fd2074302aea3c"
+          "sha256": "9c8d6f1642cf0a2d2fd0bd5ea65a6c3b49a43c605ac144dfec981eb00c486b76"
         },
         "singbox": {
           "path": "singbox/GoogleVoice.json",
@@ -294,7 +294,7 @@
       "formats": {
         "clash": {
           "path": "clash-yaml/Chromecast.yaml",
-          "sha256": "ec42a2f80c3a7d63eaf3195ff602b41dfd18426d1297c517f89351613fd944a3"
+          "sha256": "1594851c7680adf648707a74105a06ddc3b714be429aeae469ad25dfd18e4b5b"
         },
         "singbox": {
           "path": "singbox/Chromecast.json",
@@ -307,7 +307,7 @@
       "formats": {
         "clash": {
           "path": "clash-yaml/GoogleFCM.yaml",
-          "sha256": "a9af8e313ce1b58420aa154dbcaa7faa8db350971b443be8a0329ce5df15c256"
+          "sha256": "debf0fe3f521903902439ea9aecc4502f7a4b6997ee3602b6c7d84d77758e015"
         },
         "singbox": {
           "path": "singbox/GoogleFCM.json",
@@ -320,7 +320,7 @@
       "formats": {
         "clash": {
           "path": "clash-yaml/OneDrive.yaml",
-          "sha256": "b1b3525844f4d778214f1f36ce6124ace5ddb9278df1354c2bc0865a9a5455bc"
+          "sha256": "be83e3829cb12388174ed4b6fa4133927e80a6cfedb9538f318a2d4693f27778"
         },
         "singbox": {
           "path": "singbox/OneDrive.json",
@@ -333,7 +333,7 @@
       "formats": {
         "clash": {
           "path": "clash-yaml/Dropbox.yaml",
-          "sha256": "4248843ab388267fff7b7a98777c668a5076f8c6d29fbbda3de653be13d71318"
+          "sha256": "549f287f51835a97ba1be3828c8f458308a0c5577890944145429bbd477316c2"
         },
         "singbox": {
           "path": "singbox/Dropbox.json",
@@ -346,7 +346,7 @@
       "formats": {
         "clash": {
           "path": "clash-yaml/PikPak.yaml",
-          "sha256": "8ce472fb515687b69b2f464db45495296bd27dbb906ae9eff64717e40267f0d6"
+          "sha256": "aecaf9088e5138c3c87db4b6b7b39c26a902c50b388d0562c053e2730f5b5427"
         },
         "singbox": {
           "path": "singbox/PikPak.json",
@@ -359,7 +359,7 @@
       "formats": {
         "clash": {
           "path": "clash-yaml/MEGA.yaml",
-          "sha256": "7ca6c4062551c2d31cb34e8c7bdb798a4752821f3327dd5e248380929fc089d2"
+          "sha256": "ca12259b44a35a0879210c34948275958b5e5de1c33dd47df2de615c0d95ec35"
         },
         "singbox": {
           "path": "singbox/MEGA.json",
@@ -372,7 +372,7 @@
       "formats": {
         "clash": {
           "path": "clash-yaml/Teams.yaml",
-          "sha256": "0891d9222a7004927474eddb8a289277779c1c3bf4573053de0fd5d4aa4bd3f1"
+          "sha256": "260cf6d8c62b7d22681f62d78ed7129e6ca601317ca1779e6fe2e107f152bb83"
         },
         "singbox": {
           "path": "singbox/Teams.json",
@@ -385,7 +385,7 @@
       "formats": {
         "clash": {
           "path": "clash-yaml/MicrosoftEdge.yaml",
-          "sha256": "36990082aebae8666b7734b3c88a2b970d96d74450ba5d68ffac2a289884a0b2"
+          "sha256": "a26f6a5dcd3fcacb0aea82d518a00ed318304ae7f52245aa1b0cf78bfd6327aa"
         },
         "singbox": {
           "path": "singbox/MicrosoftEdge.json",
@@ -398,7 +398,7 @@
       "formats": {
         "clash": {
           "path": "clash-yaml/Bing.yaml",
-          "sha256": "885be235f5b60777876f2f58678d166e3327d0041d851903bae87fdfa6465c04"
+          "sha256": "272dd67d7f007ad1984c47ea358515454a4967db29bdd06e216de6f66aabd6e0"
         },
         "singbox": {
           "path": "singbox/Bing.json",
@@ -411,7 +411,7 @@
       "formats": {
         "clash": {
           "path": "clash-yaml/Xbox.yaml",
-          "sha256": "011e492ac6266e2bdc61ed0cef1698e713a5b780135865587a93c0a21aa5aa4e"
+          "sha256": "7b4fabe280a2ad575adabca38524c2af26a3a43e5a35f39cf3df1a525cc80172"
         },
         "singbox": {
           "path": "singbox/Xbox.json",
@@ -424,7 +424,7 @@
       "formats": {
         "clash": {
           "path": "clash-yaml/LinkedIn.yaml",
-          "sha256": "579c2ac736e8d9e78e9a333ffc01682761637b1616c359def9383d6eff433160"
+          "sha256": "9f6757fa14e749db336041801686948ca9d36e8f348951bec050f8e866b0f8b1"
         },
         "singbox": {
           "path": "singbox/LinkedIn.json",
@@ -437,7 +437,7 @@
       "formats": {
         "clash": {
           "path": "clash-yaml/Microsoft.yaml",
-          "sha256": "3d65f7d3e1f9fcd339f8b87a3cef22701d65717a228875c427cb8db51678a9c3"
+          "sha256": "d4b5bc3cd8e4c192fd84001965686b478c63d5e81e19795d14b599340f0a2d14"
         },
         "singbox": {
           "path": "singbox/Microsoft.json",
@@ -450,7 +450,7 @@
       "formats": {
         "clash": {
           "path": "clash-yaml/Netflix.yaml",
-          "sha256": "f0cfc41ac467124a9d46c845e10d02e0b0952488f5edb6309ca6ec21aefa3627"
+          "sha256": "c44a7d91c1e4310eebc2e9fe15e2be0ff2797c1ac930d01887f5e04789fa909d"
         },
         "singbox": {
           "path": "singbox/Netflix.json",
@@ -463,7 +463,7 @@
       "formats": {
         "clash": {
           "path": "clash-yaml/Disney.yaml",
-          "sha256": "7cadb03ab9a80a2826b6ddc6292bec314f3723b4365b94f98dfdc469de69baa3"
+          "sha256": "4f9eccbb7a42f000bb64b6ae16934bcad9a74f4fbe3bba29745cee529d4c2b95"
         },
         "singbox": {
           "path": "singbox/Disney.json",
@@ -476,7 +476,7 @@
       "formats": {
         "clash": {
           "path": "clash-yaml/Spotify.yaml",
-          "sha256": "b25aa23d73376b6245ade1d20188bc84abbbe0016914cf2ac09b6206537a366d"
+          "sha256": "fd0c9ff1c6788395de0943f5d33105db41b1611e8ed209c1a64ff5a4be35d4d6"
         },
         "singbox": {
           "path": "singbox/Spotify.json",
@@ -489,7 +489,7 @@
       "formats": {
         "clash": {
           "path": "clash-yaml/HBO.yaml",
-          "sha256": "ae249290d0fe3595732ae72c48d04bf1465fa7ebdfd3cb6dfc7938703d02322d"
+          "sha256": "271973d5363bfc088e8dbab13618f1dd05182de47a1695abe90224b1b09eb750"
         },
         "singbox": {
           "path": "singbox/HBO.json",
@@ -502,7 +502,7 @@
       "formats": {
         "clash": {
           "path": "clash-yaml/AmazonPrimeVideo.yaml",
-          "sha256": "af5cc9e8b766fbac08c06de65e8e8bce561b0cf34132805eaa9e0a791b35b1c6"
+          "sha256": "36fb2755813511fe7243f0ad3e7e546dd919babbd9a9879316ee5d6ce908d183"
         },
         "singbox": {
           "path": "singbox/AmazonPrimeVideo.json",
@@ -515,7 +515,7 @@
       "formats": {
         "clash": {
           "path": "clash-yaml/Hulu.yaml",
-          "sha256": "84f727e81032251f6d2b3215fa85e61f13b1f6b7c6d6a514eb33abc94a8856f1"
+          "sha256": "97b11dc02f4d97de259933e24f9731c2eb06f2f999d2635d92f2cb6ef2456dde"
         },
         "singbox": {
           "path": "singbox/Hulu.json",
@@ -528,7 +528,7 @@
       "formats": {
         "clash": {
           "path": "clash-yaml/AppleTV.yaml",
-          "sha256": "1e1a1419bab39b0104b99e25f48a89e1d408967891677eff8cb65ec180a05bdc"
+          "sha256": "d8bb0f737e2a8e1dfb33ecd985b5ce56da99543e2d99e1c53ef9ebad1d8affce"
         },
         "singbox": {
           "path": "singbox/AppleTV.json",
@@ -541,7 +541,7 @@
       "formats": {
         "clash": {
           "path": "clash-yaml/Twitch.yaml",
-          "sha256": "4b54eee97b904fb89d38f387efcd792fb58e49c1589523f7962d85e5f750883f"
+          "sha256": "5bdbd1b272cf3e91da08d0f8077e274ac7d0f4857c69cd1879e4936d3c81c9d1"
         },
         "singbox": {
           "path": "singbox/Twitch.json",
@@ -554,7 +554,7 @@
       "formats": {
         "clash": {
           "path": "clash-yaml/DAZN.yaml",
-          "sha256": "59a3110eeb7f477b50908f747da0e5c5d8c2a9e5493cd01e914f90bb5862ac72"
+          "sha256": "1d72203711c048a0f510b429be0b104307440f1438e48563fc0d5e88fac0eb34"
         },
         "singbox": {
           "path": "singbox/DAZN.json",
@@ -567,7 +567,7 @@
       "formats": {
         "clash": {
           "path": "clash-yaml/TikTok.yaml",
-          "sha256": "1eba5d27a832ca0c75e35b50683ce21ae30e2fbbe3d288353301525790f496c4"
+          "sha256": "91fd149b08d7f636e1a290dd3b4afdba15eafec807785e179c3f5462a1bdf21e"
         },
         "singbox": {
           "path": "singbox/TikTok.json",
@@ -580,7 +580,7 @@
       "formats": {
         "clash": {
           "path": "clash-yaml/Telegram.yaml",
-          "sha256": "a85833bfd13ad479c2d67a074588bb47564cd0b13efa944bb99871684684b328"
+          "sha256": "dd5ae90bdeb6bc3d59648a884a4d4b290149f393b0f274fad59b915b4447c90e"
         },
         "singbox": {
           "path": "singbox/Telegram.json",
@@ -593,7 +593,7 @@
       "formats": {
         "clash": {
           "path": "clash-yaml/Twitter.yaml",
-          "sha256": "012c26cc05a872b0855a2fb57067f75e1cf34e31bacba6cc602cac7dee3ee2bf"
+          "sha256": "5984acd6b809476e9aca26aa6aa886546589cc15f8f5093a84546e732042412e"
         },
         "singbox": {
           "path": "singbox/Twitter.json",
@@ -606,7 +606,7 @@
       "formats": {
         "clash": {
           "path": "clash-yaml/Instagram.yaml",
-          "sha256": "83fd8df657a0092c2272344df7673a3dd24a6856d46ade2f6db04c45a4189fec"
+          "sha256": "389be923a386d87ff64a26c95a054c2bebb803f8426c462dcb232b7740bb98a0"
         },
         "singbox": {
           "path": "singbox/Instagram.json",
@@ -619,7 +619,7 @@
       "formats": {
         "clash": {
           "path": "clash-yaml/Facebook.yaml",
-          "sha256": "2b5bc91f25911f57cd6c47e1cc7da370d1e8ffac90065c0471f163c2eea7e758"
+          "sha256": "41cc7dbad6cd2cae4e2f2bf87bbecaf9bba53a64a8eee554f77dedd0a97c3a55"
         },
         "singbox": {
           "path": "singbox/Facebook.json",
@@ -632,7 +632,7 @@
       "formats": {
         "clash": {
           "path": "clash-yaml/Binance.yaml",
-          "sha256": "cb5e1c7751d835b280b74b9e86105e1e7028444be16c9f1024618029c100d3cc"
+          "sha256": "fb307e9421ae6d9a737dee02771f5be9bcd9a806111d31d7a0b46c023df46334"
         },
         "singbox": {
           "path": "singbox/Binance.json",
@@ -645,7 +645,7 @@
       "formats": {
         "clash": {
           "path": "clash-yaml/Jsdelivr.yaml",
-          "sha256": "29b72d6be9ba891280e300ec769cc7cbe80b1fc89c1bc9db1667a4f67ff8b3bc"
+          "sha256": "b27a0e6d3a5c57fbb88f1a3fc90ef49b9a1ac65733d4cb3414bbffd8eb9b3b58"
         },
         "singbox": {
           "path": "singbox/Jsdelivr.json",
@@ -658,7 +658,7 @@
       "formats": {
         "clash": {
           "path": "clash-yaml/CloudflareTunnel.yaml",
-          "sha256": "4a70f9e6fe78ffad76b76cebf61ffabf607b050df03d6b285e5e9ae46ce512c1"
+          "sha256": "56c1d2eba23d3ed35d957f2a880c2a3cb867f65d99b863d715104673359b9956"
         },
         "singbox": {
           "path": "singbox/CloudflareTunnel.json",
@@ -671,7 +671,7 @@
       "formats": {
         "clash": {
           "path": "clash-yaml/Cloudflare.yaml",
-          "sha256": "9f441e73a6ea7b94d0a619e49598c1d5294e01ec77972886fc4b108b95e005cc"
+          "sha256": "e80e8bb866578d37e5cffd1a7c41b2cb721e7a7dcd01e9f1af2c25092e7a20a3"
         },
         "singbox": {
           "path": "singbox/Cloudflare.json",
@@ -684,7 +684,7 @@
       "formats": {
         "clash": {
           "path": "clash-yaml/Tailscale.yaml",
-          "sha256": "f21e17c1000da581e008d56baf9fd9251e527be0f8da6c1945e0ea43e64b922e"
+          "sha256": "565427e596346d95393b7941b7eb316438f1735e2af31700afc480e6c6b85dbd"
         },
         "singbox": {
           "path": "singbox/Tailscale.json",
@@ -697,7 +697,7 @@
       "formats": {
         "clash": {
           "path": "clash-yaml/Adobe.yaml",
-          "sha256": "04d101b6a965785d1a1feb05fd9917f8a411d3638b532c536bbe37f0c5ebb399"
+          "sha256": "303e52b305598d789eec9579926d32a64f66a84776160908202221594ac78c4f"
         },
         "singbox": {
           "path": "singbox/Adobe.json",
@@ -710,11 +710,11 @@
       "formats": {
         "clash": {
           "path": "clash-yaml/Apple.yaml",
-          "sha256": "87872d57433a0a1f2b47c1e4376cc9e28fd8720079e071f152a8a69ac527af99"
+          "sha256": "10df2630f8e35726e61d43c3c990ec3a6cf4d5fb7667db73d7965fdb1c212acb"
         },
         "singbox": {
           "path": "singbox/Apple.json",
-          "sha256": "33c607ebe8e62df50fb43db5bdbbfe8f9230dc67b4a335a747aa6dd915af48df"
+          "sha256": "430b1512a6beaf367eddcae1b7bf750ca23efdbd12a14457457ab0f8d74a6439"
         }
       }
     },
@@ -723,11 +723,11 @@
       "formats": {
         "clash": {
           "path": "clash-yaml/Steam.yaml",
-          "sha256": "03a51498e6cdea2c70c6cd37bd2daa8c99db72709b301de4786600f830fd4547"
+          "sha256": "5cd58e91bdebd596558af9829e040fc86081b11fdbfd8ee21ad2e569dbbd0cfe"
         },
         "singbox": {
           "path": "singbox/Steam.json",
-          "sha256": "9b4a9117f3ec97aa5127878013563651670a8931aa775d7dad60fb44cec9d7b4"
+          "sha256": "c6c8bef2a4f4ddcbd20617959d1434fca1f15af510409e80ea420a4160b9c9bf"
         }
       }
     },
@@ -736,7 +736,7 @@
       "formats": {
         "clash": {
           "path": "clash-yaml/Epic.yaml",
-          "sha256": "d33989dce99fd26367b864b1bf106f777cba997f28820ed2f0ae7b5a3b82b008"
+          "sha256": "79b17cb05f7a78b9faa0fbe3f8146f68eb282b0de1d3bea596836690ff75f6e9"
         },
         "singbox": {
           "path": "singbox/Epic.json",
@@ -749,7 +749,7 @@
       "formats": {
         "clash": {
           "path": "clash-yaml/PlayStation.yaml",
-          "sha256": "4ad38dd6f52bdb13b0bd02a65a615782e6ed4a1cb211a0bbf7bd2ce45b0c6730"
+          "sha256": "7ec482885053d450ffa8295c334391faf36a6752e6e28f3697cb0fe07945bee6"
         },
         "singbox": {
           "path": "singbox/PlayStation.json",
@@ -762,7 +762,7 @@
       "formats": {
         "clash": {
           "path": "clash-yaml/Nintendo.yaml",
-          "sha256": "da33fc93871afcc772f0c0a9efef57c099acd730c55cbbcbb2dcde803b9180de"
+          "sha256": "f5afdddc737b9e49c08965bb4a7a861d845d1469572dc83daea36a37f3ce3ac2"
         },
         "singbox": {
           "path": "singbox/Nintendo.json",
@@ -775,11 +775,11 @@
       "formats": {
         "clash": {
           "path": "clash-yaml/Game.yaml",
-          "sha256": "67bbc7ec896bae0b937da56d9a4caf3987678f9b96a018b9d2e029a6e1bf61a9"
+          "sha256": "57b13c53d78e0a6f3459611502c5e9c6c1618267cadd1cea8d0a5e9fd089a39d"
         },
         "singbox": {
           "path": "singbox/Game.json",
-          "sha256": "97d1b1ab0dcbf16e81095cc26801ccc5f5317c64a2c7d773bf8e9b9727640e05"
+          "sha256": "314ce347eb48f47f704963cdefa933f620570e03f9318996fc91fa1543fd0f46"
         }
       }
     },
@@ -788,7 +788,7 @@
       "formats": {
         "clash": {
           "path": "clash-yaml/GlobalMedia.yaml",
-          "sha256": "99d5bacd4c9d0929f468ae43813ebd9d008593718696dffac3e831040d679206"
+          "sha256": "a17c9ea87c708c7953e9cf2794b538a0014e1f8a4038637c3319c143b875264c"
         },
         "singbox": {
           "path": "singbox/GlobalMedia.json",
@@ -801,7 +801,7 @@
       "formats": {
         "clash": {
           "path": "clash-yaml/IPTVOther.yaml",
-          "sha256": "a1efa64c34685d15ae049e64e44ff1107680aeaf2f6f4c2163adc8ff96c70854"
+          "sha256": "a531891e38c0008f3fb390b0eaefd9536d235db7f40992dc7ed7685a003b45a9"
         },
         "singbox": {
           "path": "singbox/IPTVOther.json",
@@ -814,11 +814,11 @@
       "formats": {
         "clash": {
           "path": "clash-yaml/Proxy.yaml",
-          "sha256": "d06b4145dc79940cce02ec04f8bdf8cd1404b904004a07a8688f5dc9f91e2fa2"
+          "sha256": "f9e74ae8f14af1c24ca8c7879c1d35c7cb223760fecde6b7db281b72c3bfc219"
         },
         "singbox": {
           "path": "singbox/Proxy.json",
-          "sha256": "7f8cb6b9d108bb86c9a99dbb4475488a3a53ec7f33dcfdeb5a7432e557feffe7"
+          "sha256": "564bbae8458ae551116b1d0aa4fc4c4c4889b43947ab830585a318c4c2eee6c9"
         }
       }
     },
@@ -827,7 +827,7 @@
       "formats": {
         "clash": {
           "path": "clash-yaml/BiliBili.yaml",
-          "sha256": "c40befa32c0ff3b050b8f414c66c5c4eed1b581b8d0fdd789df8e930f0958329"
+          "sha256": "c650f220a8e4d16c4480a1c51883ca46c28ef5894d492387d6966ccb5538d075"
         },
         "singbox": {
           "path": "singbox/BiliBili.json",
@@ -840,7 +840,7 @@
       "formats": {
         "clash": {
           "path": "clash-yaml/ChinaMedia.yaml",
-          "sha256": "20dd8f1317da680c21bfef75ff12846157a0c3a95648374dd7f08d412939044f"
+          "sha256": "8c299010a1be0459fc7b17a20878e7ece6742cff1a7372db3a5556f4f9bb3ad7"
         },
         "singbox": {
           "path": "singbox/ChinaMedia.json",
@@ -853,7 +853,7 @@
       "formats": {
         "clash": {
           "path": "clash-yaml/IPTVMainland.yaml",
-          "sha256": "e3219405330e9361dc57b57790ecd12a5a2d17439a63e063055562e4ce14d5f0"
+          "sha256": "48fb5b6cb46dedba6fc7ed0ff5892073b188990bc5c300c6367ea2b5fc5d2156"
         },
         "singbox": {
           "path": "singbox/IPTVMainland.json",
@@ -866,11 +866,11 @@
       "formats": {
         "clash": {
           "path": "clash-yaml/ChinaIPs.yaml",
-          "sha256": "5cb893cccb43b9f0ad5ca796aef63a0e8f7b73e9eeedcf077631348052abfbf1"
+          "sha256": "b5866912e33d84335d6fa30db4cd142dffae68d279e64e63a05a1d58a4c85da5"
         },
         "singbox": {
           "path": "singbox/ChinaIPs.json",
-          "sha256": "3f56b91398e52f5173ed9f8d103f430067b475cefeb97cc1060b199866bd1267"
+          "sha256": "39058f6f82486c8ab17e4becc5bc5e777e3bd4d3a62ebc4b0f78ab4d1eab3ec9"
         }
       }
     },
@@ -879,7 +879,7 @@
       "formats": {
         "clash": {
           "path": "clash-yaml/ChinaDNS.yaml",
-          "sha256": "c627a87a9df2a3bf16be91dc8ccf8b4fe0780e5b21ff25de9fdabdc65a682f29"
+          "sha256": "66f350049984eb1560066c184cae24b4062b64446a4b9c65c20890fa8e27ef80"
         },
         "singbox": {
           "path": "singbox/ChinaDNS.json",
@@ -892,11 +892,11 @@
       "formats": {
         "clash": {
           "path": "clash-yaml/ChinaMaxNoIP.yaml",
-          "sha256": "779ef6815559b822ef278ba68a9a41ed1f4f1b5e0cca3bbfe89aa05201144f11"
+          "sha256": "1e0731a506fada72f7b4ec04a140e033093d06c7920dac9c211033cdbb75be44"
         },
         "singbox": {
           "path": "singbox/ChinaMaxNoIP.json",
-          "sha256": "4580fbb9a62be037d2eeeda76c5d45dc687f36547b80184c11422d1417da0bf5"
+          "sha256": "5f05f7f8339069c3b13dbcc9a77bda697550449898ea60505cadf46a6773e6bb"
         }
       }
     },
@@ -905,7 +905,7 @@
       "formats": {
         "clash": {
           "path": "clash-yaml/AmazonCN.yaml",
-          "sha256": "70bfa81059d88d21232574a4b93cc4f9b4737fcb8696fdebe924cde5681c8a4a"
+          "sha256": "b57e6431a2d0da7a0a9336fae2d9ab4cfff2ba8deb0509f7154dde64a70c0d60"
         },
         "singbox": {
           "path": "singbox/AmazonCN.json",
@@ -918,7 +918,7 @@
       "formats": {
         "clash": {
           "path": "clash-yaml/CloudCN.yaml",
-          "sha256": "fdd0b8b9fc2aa75c3b8544797beab08be3575cd2f0940ae3f2fcabb79550d792"
+          "sha256": "58eb4eb5c9786f43ecf1a41409c4b5c74563a1ed2d76352de6c6e87ed2c64695"
         },
         "singbox": {
           "path": "singbox/CloudCN.json",
@@ -931,7 +931,7 @@
       "formats": {
         "clash": {
           "path": "clash-yaml/GameDownloadCN.yaml",
-          "sha256": "e00b5e5604b989172057c35d7019d63e97b210e9171c559256364f096c07e454"
+          "sha256": "c06080858195be9fbebd4ffd33289533616613c943bfd6f31f002947e8d50521"
         },
         "singbox": {
           "path": "singbox/GameDownloadCN.json",
@@ -944,7 +944,7 @@
       "formats": {
         "clash": {
           "path": "clash-yaml/SteamCN.yaml",
-          "sha256": "bc8131e32dc26d5e16be9db6b828b0434c9d5e98406d7bc16653b47c18ef6a85"
+          "sha256": "2ab416efdd68541e48b5732f1465e4068e66958f71fd01e5de7267fd0693fe17"
         },
         "singbox": {
           "path": "singbox/SteamCN.json",
@@ -957,7 +957,7 @@
       "formats": {
         "clash": {
           "path": "clash-yaml/Discord.yaml",
-          "sha256": "34d4465e710a0c0d435a96c7f904faf7540a34bfd8b1ce01d228f39af1804403"
+          "sha256": "d3c9b29e78e6a0ae558ba49486195bf88e9ad49f804000d6b35712c6d91372d0"
         },
         "singbox": {
           "path": "singbox/Discord.json",
@@ -970,7 +970,7 @@
       "formats": {
         "clash": {
           "path": "clash-yaml/Reddit.yaml",
-          "sha256": "88dc005e6e36484b5b23882b32b092e68edc2dcc1cb2a26e12eb34e25ace258e"
+          "sha256": "698fa0075546dbf21c4a4dd17b48ba94c4b9c3a23394dfdfbbcba8dc32b7b780"
         },
         "singbox": {
           "path": "singbox/Reddit.json",
@@ -983,7 +983,7 @@
       "formats": {
         "clash": {
           "path": "clash-yaml/WhatsApp.yaml",
-          "sha256": "ec1e56c75693c09741e721c16851d2b6ee769e7e95013058fa3271670d4cceb7"
+          "sha256": "cefae9b3263c542fc3d01d4e6edf8f8947d3945f94d2ef4b041d540b5cf92977"
         },
         "singbox": {
           "path": "singbox/WhatsApp.json",
@@ -996,7 +996,7 @@
       "formats": {
         "clash": {
           "path": "clash-yaml/Line.yaml",
-          "sha256": "91cc39e78e70449ef94633e5815532bcccbfa6393e32881eaf06fc90ebdc7ec5"
+          "sha256": "95b30e3a3824d980154388a53042b03bad51ffae23e86c0bf07f8fee90b9e99a"
         },
         "singbox": {
           "path": "singbox/Line.json",
@@ -1009,7 +1009,7 @@
       "formats": {
         "clash": {
           "path": "clash-yaml/Notion.yaml",
-          "sha256": "0ddb830b5b488794f3f42e2f9318e7f587552f25721e3d92e3cdb3735478ac5f"
+          "sha256": "e319b75f0bbb7677e75e5a0742b09d539481d3ff2aebeeb4d8b7856f44e073a4"
         },
         "singbox": {
           "path": "singbox/Notion.json",
@@ -1022,7 +1022,7 @@
       "formats": {
         "clash": {
           "path": "clash-yaml/Figma.yaml",
-          "sha256": "1036f9d16b49a6b3bc2d9be9317f115989ddba483e41e5f02f8a9e9771e5db4d"
+          "sha256": "19d1fd6e3093de2700bbfdaab355ff0c026d06e7997fa9d695816e62347f6d14"
         },
         "singbox": {
           "path": "singbox/Figma.json",
@@ -1035,7 +1035,7 @@
       "formats": {
         "clash": {
           "path": "clash-yaml/Wikipedia.yaml",
-          "sha256": "5dd35428c832f079784cc70995a7c268aacf86288580052f1084b0a8b4cf1083"
+          "sha256": "dd273bc99cd2636e5dd7a3abe727920fdb5e5bd7bff4bbea8c1f7a11383c1d29"
         },
         "singbox": {
           "path": "singbox/Wikipedia.json",
@@ -1048,7 +1048,7 @@
       "formats": {
         "clash": {
           "path": "clash-yaml/PayPal.yaml",
-          "sha256": "8aa03e74588020326b4b4f5330c6280691b6aa1cabce2e4afe0d82676cb96964"
+          "sha256": "9b581079e0b73b3149bcf924ba747d1ee6acfa51d06cbb6a63201fc5cdfba31e"
         },
         "singbox": {
           "path": "singbox/PayPal.json",
@@ -1061,7 +1061,7 @@
       "formats": {
         "clash": {
           "path": "clash-yaml/SpeedTest.yaml",
-          "sha256": "36e0a67645190cddf3ab3f2d628a8420e983478e30345ef208133344240b14b4"
+          "sha256": "c56cc78aaf773c79c7fc6951c042172ccb36c7c1f75ac427c096c277c5541296"
         },
         "singbox": {
           "path": "singbox/SpeedTest.json",
@@ -1074,7 +1074,7 @@
       "formats": {
         "clash": {
           "path": "clash-yaml/Emby.yaml",
-          "sha256": "7e798a354ef2e3d6fda71136fbe0fb6bd0610378296ae003f471d56a6fdf9fec"
+          "sha256": "093ef77fecde3dd226745949458301a1d1b07194381b2c5a254bdf6762637729"
         },
         "singbox": {
           "path": "singbox/Emby.json",
@@ -1087,7 +1087,7 @@
       "formats": {
         "clash": {
           "path": "clash-yaml/Bahamut.yaml",
-          "sha256": "0798b41b51e57d96966b5b181203d5a09613f793bce036c036b4032581257b2f"
+          "sha256": "e091fb6431530fa9fd24e14c660686cced4d039bd3b54cc3fc08037d38077573"
         },
         "singbox": {
           "path": "singbox/Bahamut.json",
@@ -1100,11 +1100,11 @@
       "formats": {
         "clash": {
           "path": "clash-yaml/Blizzard.yaml",
-          "sha256": "0da08983c924e68f07c1cc3d11bc5f460d8a3038e2a91822bc3ebfc6d8923ebc"
+          "sha256": "17e147d4044c5b1375d6d4e7d0e8daa7188e7d1b00df0a17438c9d353ce96aa2"
         },
         "singbox": {
           "path": "singbox/Blizzard.json",
-          "sha256": "155a4c8981f3858f1dfbac84e928232c2da3cd30466e56293376dc70e7f47007"
+          "sha256": "fd88e15bbff975cc56ede18130cde754ed1edcae2fdd244000429689416b7943"
         }
       }
     },
@@ -1113,7 +1113,7 @@
       "formats": {
         "clash": {
           "path": "clash-yaml/Ea.yaml",
-          "sha256": "9eff281cd4349b8e4b2eb54f5dcaa68fe7b1329601f9ae678d2b7d0e97a5f665"
+          "sha256": "22c9ea9f9fb10e93af9aba0805784bf48b092216f9100e1f4d8a758fb4541399"
         },
         "singbox": {
           "path": "singbox/Ea.json",
@@ -1126,7 +1126,7 @@
       "formats": {
         "clash": {
           "path": "clash-yaml/UbiSoft.yaml",
-          "sha256": "58b2fb404f6529bbd906634e8c34571ec0425521a090fb7af32616417dfaff6e"
+          "sha256": "265f211677b392255013a5c17457bd28477a2f5fa04cfb22b27da3ff6fae3881"
         },
         "singbox": {
           "path": "singbox/UbiSoft.json",
@@ -1139,7 +1139,7 @@
       "formats": {
         "clash": {
           "path": "clash-yaml/Rockstar.yaml",
-          "sha256": "762d83372b13f403870a006a0c0e8cb8059c266fcd516c894a8e7e0882611cf4"
+          "sha256": "bd4fb51457c4d3247c6ceefda6a7ea61cd9fe6047a41408b896820bdcef9ed28"
         },
         "singbox": {
           "path": "singbox/Rockstar.json",
@@ -1152,7 +1152,7 @@
       "formats": {
         "clash": {
           "path": "clash-yaml/NetEaseMusic.yaml",
-          "sha256": "05728acbff30d404d18f7954dc74d0c146839f32b9fdbbddc5754d89592b6bad"
+          "sha256": "6bf650509045b1f82ffb452329670220f4c2213c2c8e20ff7a5fa70ace09e311"
         },
         "singbox": {
           "path": "singbox/NetEaseMusic.json",
