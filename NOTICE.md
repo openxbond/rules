@@ -1,18 +1,26 @@
 # NOTICE — 规则数据来源与署名
 
-本仓库的规则数据聚合自以下上游项目，感谢原作者的辛勤付出：
+本仓库的规则数据聚合自以下上游开源项目，感谢原作者与社区贡献者：
+
+## v2fly/domain-list-community
+
+- 仓库：<https://github.com/v2fly/domain-list-community>
+- 覆盖范围：`manifest.json` 中引用的 `dlc:*` 域名列表与 `@cn`/`@!cn`/`@ads` 属性切片
+- 许可：MIT
 
 ## blackmatrix7/ios_rule_script
 
 - 仓库：<https://github.com/blackmatrix7/ios_rule_script>
-- 覆盖范围：`categories.txt` 全部分类的原始规则（`rule/Clash/*/*.list`）
-- 许可：MIT（随上游仓库分发）
+- 覆盖范围：`manifest.json` 中引用的 `bm7:*` IP-CIDR 与专项规则
+- 许可：MIT
+
+## ipverse/rir-ip
+
+- 仓库：<https://github.com/ipverse/rir-ip>
+- 覆盖范围：伊朗（`ir`）与俄罗斯（`ru`）聚合 IPv4/IPv6 网段
+- 许可：CC0-1.0
 
 ## 自有修改
 
-- `custom-rules.txt` 记录的自有规则增删（如 Tailscale / Cloudflare Tunnel / ChatGLM / Claude 的补充域名与网段，以及上游无对应的自有分类 Perplexity / Cursor / GoogleDeveloper），随本仓库 MIT 许可发布。
+- `custom/*.list` 与 `manifest.json` 的场景编排、互斥切片及补充域名，随本仓库 MIT 许可发布。
 - `scripts/` 派生管线为本仓库原创。
-
-## 再分发状态
-
-上游为 MIT 许可，署名义务由本文件与各产物头部的 AUTHOR/REPO 注释履行。再分发许可已核实（2026-10-01）：允许商业产品再分发；xbond 仓库 `docs/specs/subscription-rendering.md` 对应未决决策已关闭。

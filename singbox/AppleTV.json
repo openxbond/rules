@@ -3,6 +3,7 @@
   "rules": [
     {
       "domain": [
+        "apple-tv-plus-press.apple.com",
         "hls-amt.itunes.apple.com",
         "hls.itunes.apple.com",
         "np-edge.itunes.apple.com",

@@ -1,0 +1,14 @@
+{
+  "version": 2,
+  "rules": [
+    {
+      "domain_suffix": [
+        "shein.com",
+        "shein.co.uk",
+        "shein.com.mx",
+        "ltwebstatic.com",
+        "sheincdn.com"
+      ]
+    }
+  ]
+}

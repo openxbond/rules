@@ -1,0 +1,18 @@
+# NAME: MarketingCRM
+# REPO: https://github.com/openxbond/rules
+# DOMAIN: 0
+# DOMAIN-SUFFIX: 9
+# DOMAIN-KEYWORD: 0
+# IP-CIDR: 0
+# IP-CIDR6: 0
+# TOTAL: 9
+payload:
+  - DOMAIN-SUFFIX,hubspot.com
+  - DOMAIN-SUFFIX,hsforms.com
+  - DOMAIN-SUFFIX,hs-scripts.com
+  - DOMAIN-SUFFIX,mailchimp.com
+  - DOMAIN-SUFFIX,list-manage.com
+  - DOMAIN-SUFFIX,klaviyo.com
+  - DOMAIN-SUFFIX,semrush.com
+  - DOMAIN-SUFFIX,similarweb.com
+  - DOMAIN-SUFFIX,ahrefs.com

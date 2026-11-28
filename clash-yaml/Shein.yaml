@@ -1,0 +1,14 @@
+# NAME: Shein
+# REPO: https://github.com/openxbond/rules
+# DOMAIN: 0
+# DOMAIN-SUFFIX: 5
+# DOMAIN-KEYWORD: 0
+# IP-CIDR: 0
+# IP-CIDR6: 0
+# TOTAL: 5
+payload:
+  - DOMAIN-SUFFIX,shein.com
+  - DOMAIN-SUFFIX,shein.co.uk
+  - DOMAIN-SUFFIX,shein.com.mx
+  - DOMAIN-SUFFIX,ltwebstatic.com
+  - DOMAIN-SUFFIX,sheincdn.com

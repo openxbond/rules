@@ -3,36 +3,45 @@
   "rules": [
     {
       "domain": [
+        "audio-ak-spotify-com.akamaized.net",
         "audio4-ak-spotify-com.akamaized.net",
         "cdn-spotify-experiments.conductrics.com",
         "heads-ak-spotify-com.akamaized.net",
-        "spotify.com.edgesuite.net",
+        "heads4-ak-spotify-com.akamaized.net",
         "spotify.map.fastly.net",
-        "spotify.map.fastlylb.net"
+        "spotify.map.fastlylb.net",
+        "adeventtracker.spotify.com",
+        "adstudio-assets.scdn.co",
+        "bloodhound.spotify.com",
+        "spotify.com.edgesuite.net"
       ]
     },
     {
       "domain_suffix": [
-        "audio-ak-spotify-com.akamaized.net",
         "byspotify.com",
-        "heads4-ak-spotify-com.akamaized.net",
+        "lifeatspotify.com",
         "pscdn.co",
         "scdn.co",
         "spoti.fi",
-        "spotify-com.akamaized.net",
         "spotify-everywhere.com",
-        "spotify.app.link",
         "spotify.com",
         "spotify.design",
+        "spotify.link",
         "spotifycdn.com",
         "spotifycdn.net",
         "spotifycharts.com",
         "spotifycodes.com",
         "spotifyforbrands.com",
+        "spotifyforvendors.com",
         "spotifyjobs.com",
+        "tospotify.com",
+        "spotify.com.edgesuite.net",
+        "audio-ak-spotify-com.akamaized.net",
+        "heads4-ak-spotify-com.akamaized.net",
+        "spotify-com.akamaized.net",
+        "spotify.app.link",
         "spotifynewsroom.jp",
-        "spotilocal.com",
-        "tospotify.com"
+        "spotilocal.com"
       ]
     },
     {

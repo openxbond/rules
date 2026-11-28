@@ -11,7 +11,12 @@
         "oasisauth.h3c.com",
         "router.asus.com",
         "setmeup.arubanetworks.com",
-        "www.asusrouter.com"
+        "www.asusrouter.com",
+        "routerlogin.com",
+        "www.routerlogin.com",
+        "tplogin.cn",
+        "miwifi.com",
+        "www.miwifi.com"
       ]
     },
     {
@@ -130,7 +135,15 @@
         "tplogin.cn",
         "ts.net",
         "wifi.cmcc",
-        "zte.home"
+        "zte.home",
+        "lan",
+        "localdomain",
+        "example",
+        "invalid",
+        "localhost",
+        "test",
+        "local",
+        "internal"
       ]
     },
     {

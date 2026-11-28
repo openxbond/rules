@@ -1,0 +1,26 @@
+{
+  "version": 2,
+  "rules": [
+    {
+      "domain": [
+        "search.google.com"
+      ]
+    },
+    {
+      "domain_suffix": [
+        "ads.google.com",
+        "adwords.google.com",
+        "analytics.google.com",
+        "tagmanager.google.com",
+        "merchants.google.com",
+        "adsense.google.com",
+        "admob.com",
+        "doubleclick.net",
+        "googlesyndication.com",
+        "googleadservices.com",
+        "googleanalytics.com",
+        "googletagmanager.com"
+      ]
+    }
+  ]
+}

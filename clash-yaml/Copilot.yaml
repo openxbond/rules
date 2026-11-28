@@ -1,14 +1,19 @@
 # NAME: Copilot
-# AUTHOR: blackmatrix7
-# REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2026-11-04 13:00:15
-# DOMAIN: 20
+# REPO: https://github.com/openxbond/rules
+# DOMAIN: 26
 # DOMAIN-SUFFIX: 27
 # DOMAIN-KEYWORD: 1
 # IP-CIDR: 2
 # IP-CIDR6: 0
-# TOTAL: 52
+# TOTAL: 56
 payload:
+  - DOMAIN-SUFFIX,githubcopilot.com
+  - DOMAIN,copilot-proxy.githubusercontent.com
+  - DOMAIN,copilot-workspace.githubnext.com
+  - DOMAIN,production-copilot-host-westus.webpubsub.azure.com
+  - DOMAIN,copilotprodattachments.blob.core.windows.net
+  - DOMAIN,copilot-telemetry-service.githubusercontent.com
+  - DOMAIN,copilot-telemetry.githubusercontent.com
   - DOMAIN,api.msn.com
   - DOMAIN,api.statsig.com
   - DOMAIN,assets.msn.com
@@ -58,6 +63,3 @@ payload:
   - DOMAIN-KEYWORD,openaicom-api
   - IP-CIDR,24.199.123.28/32,no-resolve
   - IP-CIDR,64.23.132.171/32,no-resolve
-  - IP-ASN,14061,no-resolve
-  - IP-ASN,20473,no-resolve
-  - DOMAIN-SUFFIX,githubcopilot.com

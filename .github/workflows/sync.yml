@@ -16,7 +16,7 @@ jobs:
         with:
           node-version: 22
 
-      - name: Sync upstream and rebuild artifacts
+      - name: Sync upstreams and rebuild artifacts
         run: bash scripts/sync.sh
 
       - name: Commit and tag release when changed
@@ -31,7 +31,6 @@ jobs:
           git commit -m "sync: $(date -u +%F)"
           tag="v$(date -u +%Y.%-m.%-d)"
           if git rev-parse "$tag" >/dev/null 2>&1; then
-            # 同日重跑：删除旧 tag 重打，release 永远指向最新一次同步
             git tag -f "$tag"
           else
             git tag "$tag"

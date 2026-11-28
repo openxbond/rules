@@ -1,16 +1,14 @@
 # NAME: Tailscale
-# AUTHOR: blackmatrix7
-# REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2026-11-04 13:00:15
+# REPO: https://github.com/openxbond/rules
 # DOMAIN: 0
 # DOMAIN-SUFFIX: 1
 # DOMAIN-KEYWORD: 0
-# IP-CIDR: 4
-# IP-CIDR6: 0
+# IP-CIDR: 2
+# IP-CIDR6: 2
 # TOTAL: 5
 payload:
-  - DOMAIN-SUFFIX,.tailscale.com
+  - DOMAIN-SUFFIX,tailscale.com
   - IP-CIDR,192.200.0.0/24
-  - IP-CIDR,2606:B740:49::/48
+  - IP-CIDR6,2606:b740:49::/48
   - IP-CIDR,199.165.136.0/24
-  - IP-CIDR,2606:B740:1::/48
+  - IP-CIDR6,2606:b740:1::/48

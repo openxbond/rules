@@ -2,6 +2,12 @@
   "version": 2,
   "rules": [
     {
+      "domain": [
+        "images-cn.ssl-images-amazon.com",
+        "images-cn-8.ssl-images-amazon.com"
+      ]
+    },
+    {
       "domain_suffix": [
         "a2z.org.cn",
         "aboutamazon.cn",
@@ -49,7 +55,13 @@
         "route53.cn",
         "sagemaker.com.cn",
         "yamaxun.cn",
-        "z.cn"
+        "z.cn",
+        "amazonwebservices.cn",
+        "cloudfront-cn.net",
+        "amzndns-cn.biz",
+        "amzndns-cn.cn",
+        "amzndns-cn.com",
+        "amzndns-cn.net"
       ]
     }
   ]

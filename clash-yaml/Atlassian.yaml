@@ -1,0 +1,20 @@
+# NAME: Atlassian
+# REPO: https://github.com/openxbond/rules
+# DOMAIN: 0
+# DOMAIN-SUFFIX: 11
+# DOMAIN-KEYWORD: 0
+# IP-CIDR: 0
+# IP-CIDR6: 0
+# TOTAL: 11
+payload:
+  - DOMAIN-SUFFIX,trello.com
+  - DOMAIN-SUFFIX,trellocdn.com
+  - DOMAIN-SUFFIX,atl-paas.net
+  - DOMAIN-SUFFIX,atlassian-dev.net
+  - DOMAIN-SUFFIX,atlassian.com
+  - DOMAIN-SUFFIX,atlassian.net
+  - DOMAIN-SUFFIX,bitbucket.io
+  - DOMAIN-SUFFIX,bitbucket.org
+  - DOMAIN-SUFFIX,jira.com
+  - DOMAIN-SUFFIX,ss-inf.net
+  - DOMAIN-SUFFIX,statuspage.io

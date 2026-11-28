@@ -1,0 +1,12 @@
+# NAME: Zoom
+# REPO: https://github.com/openxbond/rules
+# DOMAIN: 0
+# DOMAIN-SUFFIX: 3
+# DOMAIN-KEYWORD: 0
+# IP-CIDR: 0
+# IP-CIDR6: 0
+# TOTAL: 3
+payload:
+  - DOMAIN-SUFFIX,zoom.com
+  - DOMAIN-SUFFIX,zoom.com.cn
+  - DOMAIN-SUFFIX,zoom.us

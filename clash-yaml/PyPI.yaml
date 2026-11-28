@@ -1,0 +1,15 @@
+# NAME: PyPI
+# REPO: https://github.com/openxbond/rules
+# DOMAIN: 0
+# DOMAIN-SUFFIX: 6
+# DOMAIN-KEYWORD: 0
+# IP-CIDR: 0
+# IP-CIDR6: 0
+# TOTAL: 6
+payload:
+  - DOMAIN-SUFFIX,pycon.org
+  - DOMAIN-SUFFIX,pypa.io
+  - DOMAIN-SUFFIX,pypi.io
+  - DOMAIN-SUFFIX,pypi.org
+  - DOMAIN-SUFFIX,python.org
+  - DOMAIN-SUFFIX,pythonhosted.org

@@ -3,6 +3,12 @@
   "rules": [
     {
       "domain": [
+        "copilot-proxy.githubusercontent.com",
+        "copilot-workspace.githubnext.com",
+        "production-copilot-host-westus.webpubsub.azure.com",
+        "copilotprodattachments.blob.core.windows.net",
+        "copilot-telemetry-service.githubusercontent.com",
+        "copilot-telemetry.githubusercontent.com",
         "api.msn.com",
         "api.statsig.com",
         "assets.msn.com",
@@ -27,6 +33,7 @@
     },
     {
       "domain_suffix": [
+        "githubcopilot.com",
         "algolia.net",
         "api.microsoftapp.net",
         "auth0.com",
@@ -52,8 +59,7 @@
         "segment.io",
         "sentry.io",
         "stripe.com",
-        "turn.livekit.cloud",
-        "githubcopilot.com"
+        "turn.livekit.cloud"
       ]
     },
     {

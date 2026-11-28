@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "rules": [
+    {
+      "domain_suffix": [
+        "aliexpress.com",
+        "aliexpress.us",
+        "aliexpress.ru",
+        "aliexpress-media.com"
+      ]
+    }
+  ]
+}

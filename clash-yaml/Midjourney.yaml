@@ -1,0 +1,10 @@
+# NAME: Midjourney
+# REPO: https://github.com/openxbond/rules
+# DOMAIN: 0
+# DOMAIN-SUFFIX: 1
+# DOMAIN-KEYWORD: 0
+# IP-CIDR: 0
+# IP-CIDR6: 0
+# TOTAL: 1
+payload:
+  - DOMAIN-SUFFIX,midjourney.com

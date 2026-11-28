@@ -1,0 +1,22 @@
+# NAME: GoogleAds
+# REPO: https://github.com/openxbond/rules
+# DOMAIN: 1
+# DOMAIN-SUFFIX: 12
+# DOMAIN-KEYWORD: 0
+# IP-CIDR: 0
+# IP-CIDR6: 0
+# TOTAL: 13
+payload:
+  - DOMAIN-SUFFIX,ads.google.com
+  - DOMAIN-SUFFIX,adwords.google.com
+  - DOMAIN-SUFFIX,analytics.google.com
+  - DOMAIN-SUFFIX,tagmanager.google.com
+  - DOMAIN-SUFFIX,merchants.google.com
+  - DOMAIN-SUFFIX,adsense.google.com
+  - DOMAIN-SUFFIX,admob.com
+  - DOMAIN-SUFFIX,doubleclick.net
+  - DOMAIN-SUFFIX,googlesyndication.com
+  - DOMAIN-SUFFIX,googleadservices.com
+  - DOMAIN-SUFFIX,googleanalytics.com
+  - DOMAIN-SUFFIX,googletagmanager.com
+  - DOMAIN,search.google.com

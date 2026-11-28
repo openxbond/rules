@@ -1,12 +1,3 @@
-# NAME: PrivateTracker
-# AUTHOR: blackmatrix7
-# REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2026-06-04 03:21:05
-# DOMAIN: 118
-# DOMAIN-KEYWORD: 4
-# DOMAIN-SUFFIX: 123
-# IP-CIDR: 3
-# TOTAL: 248
 DOMAIN,004430.xyz
 DOMAIN,021912.xyz
 DOMAIN,1337.abcvg.info

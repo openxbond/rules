@@ -3,14 +3,17 @@
   "rules": [
     {
       "domain": [
+        "gamer2-cds.cdn.hinet.net",
+        "gamer-cds.cdn.hinet.net",
         "bahamut.akamaized.net"
       ]
     },
     {
       "domain_suffix": [
+        "bahamut.akamaized.net",
         "bahamut.com.tw",
-        "digicert.com",
         "gamer.com.tw",
+        "digicert.com",
         "gvt1.com",
         "hinet.net",
         "viblast.com"

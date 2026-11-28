@@ -1,0 +1,14 @@
+# NAME: AppleIntelligence
+# REPO: https://github.com/openxbond/rules
+# DOMAIN: 5
+# DOMAIN-SUFFIX: 0
+# DOMAIN-KEYWORD: 0
+# IP-CIDR: 0
+# IP-CIDR6: 0
+# TOTAL: 5
+payload:
+  - DOMAIN,apple-relay.apple.com
+  - DOMAIN,apple-relay.cloudflare.com
+  - DOMAIN,apple-relay.fastly-edge.com
+  - DOMAIN,apple-relay.mask.apple-dns.net
+  - DOMAIN,gspe1-ssl.ls.apple.com

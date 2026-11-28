@@ -1,10 +1,3 @@
-# NAME: CloudCN
-# AUTHOR: LM-Firefly
-# REPO: https://github.com/LM-Firefly/Rules
-# UPDATED: 2025-06-06 09:18:51
-# IP-CIDR: 216
-# IP-CIDR6: 15
-# TOTAL: 231
 IP-CIDR,1.116.116.0/22,no-resolve
 IP-CIDR,1.116.216.0/23,no-resolve
 IP-CIDR,1.117.118.0/23,no-resolve

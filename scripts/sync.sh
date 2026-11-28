@@ -1,34 +1,37 @@
 #!/usr/bin/env bash
-# Sync curated categories from upstream (blackmatrix7/ios_rule_script) into
-# clash/*.list, apply custom-rules.txt, then derive everything else via
-# scripts/build.mjs. Scope = categories.txt — new categories are added there,
-# never by widening the sync.
+# Sync dual upstreams (v2fly/domain-list-community + blackmatrix7/ios_rule_script)
+# plus RIR country IP lists into .upstream/, then build clash/, clash-yaml/,
+# singbox/, and index.json from manifest.json via scripts/build.mjs.
 set -euo pipefail
 
 ROOT="$(cd "$(dirname "$0")/.." && pwd)"
 UPSTREAM="$ROOT/.upstream"
-REPO_URL="https://github.com/blackmatrix7/ios_rule_script.git"
+DLC_DIR="$UPSTREAM/dlc"
+BM7_DIR="$UPSTREAM/bm7"
+IP_DIR="$UPSTREAM/ip"
 
-mkdir -p "$ROOT/clash"
+DLC_REPO="https://github.com/v2fly/domain-list-community.git"
+BM7_REPO="https://github.com/blackmatrix7/ios_rule_script.git"
 
-# Sparse clone or refresh; only rule/Clash is needed.
-if [ -d "$UPSTREAM/.git" ]; then
-  git -C "$UPSTREAM" pull --ff-only --quiet
+mkdir -p "$UPSTREAM" "$IP_DIR"
+
+if [ -d "$DLC_DIR/.git" ]; then
+  git -C "$DLC_DIR" pull --ff-only --quiet
 else
-  git clone --depth 1 --filter=blob:none --sparse --quiet "$REPO_URL" "$UPSTREAM"
-  git -C "$UPSTREAM" sparse-checkout set rule/Clash
+  git clone --depth 1 --filter=blob:none --sparse --quiet "$DLC_REPO" "$DLC_DIR"
+  git -C "$DLC_DIR" sparse-checkout set data
 fi
 
-while IFS= read -r category; do
-  [ -z "$category" ] && continue
-  src="$UPSTREAM/rule/Clash/$category/$category.list"
-  if [ -f "$src" ]; then
-    cp "$src" "$ROOT/clash/$category.list"
-  elif head -n1 "$ROOT/clash/$category.list" 2>/dev/null | grep -q '^# CUSTOM'; then
-    : # self-owned category: rules live in custom-rules.txt
-  else
-    echo "WARN: upstream no longer has $category" >&2
-  fi
-done < "$ROOT/categories.txt"
+if [ -d "$BM7_DIR/.git" ]; then
+  git -C "$BM7_DIR" pull --ff-only --quiet
+else
+  git clone --depth 1 --filter=blob:none --sparse --quiet "$BM7_REPO" "$BM7_DIR"
+  git -C "$BM7_DIR" sparse-checkout set rule/Clash
+fi
+
+for cc in ir ru; do
+  curl -fsSL "https://raw.githubusercontent.com/ipverse/rir-ip/master/country/$cc/ipv4-aggregated.txt" -o "$IP_DIR/$cc-ipv4.txt"
+  curl -fsSL "https://raw.githubusercontent.com/ipverse/rir-ip/master/country/$cc/ipv6-aggregated.txt" -o "$IP_DIR/$cc-ipv6.txt"
+done
 
 node "$ROOT/scripts/build.mjs"

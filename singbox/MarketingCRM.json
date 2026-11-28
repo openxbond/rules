@@ -1,0 +1,18 @@
+{
+  "version": 2,
+  "rules": [
+    {
+      "domain_suffix": [
+        "hubspot.com",
+        "hsforms.com",
+        "hs-scripts.com",
+        "mailchimp.com",
+        "list-manage.com",
+        "klaviyo.com",
+        "semrush.com",
+        "similarweb.com",
+        "ahrefs.com"
+      ]
+    }
+  ]
+}

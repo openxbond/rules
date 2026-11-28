@@ -1,13 +1,11 @@
 # NAME: AmazonCN
-# AUTHOR: blackmatrix7
-# REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2026-11-04 13:00:15
-# DOMAIN: 0
-# DOMAIN-SUFFIX: 47
+# REPO: https://github.com/openxbond/rules
+# DOMAIN: 2
+# DOMAIN-SUFFIX: 53
 # DOMAIN-KEYWORD: 0
 # IP-CIDR: 0
 # IP-CIDR6: 0
-# TOTAL: 47
+# TOTAL: 55
 payload:
   - DOMAIN-SUFFIX,a2z.org.cn
   - DOMAIN-SUFFIX,aboutamazon.cn
@@ -56,3 +54,11 @@ payload:
   - DOMAIN-SUFFIX,sagemaker.com.cn
   - DOMAIN-SUFFIX,yamaxun.cn
   - DOMAIN-SUFFIX,z.cn
+  - DOMAIN-SUFFIX,amazonwebservices.cn
+  - DOMAIN-SUFFIX,cloudfront-cn.net
+  - DOMAIN-SUFFIX,amzndns-cn.biz
+  - DOMAIN-SUFFIX,amzndns-cn.cn
+  - DOMAIN-SUFFIX,amzndns-cn.com
+  - DOMAIN-SUFFIX,amzndns-cn.net
+  - DOMAIN,images-cn.ssl-images-amazon.com
+  - DOMAIN,images-cn-8.ssl-images-amazon.com

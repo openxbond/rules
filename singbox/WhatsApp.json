@@ -2,21 +2,18 @@
   "version": 2,
   "rules": [
     {
-      "domain": [
-        "graph.facebook.com"
-      ]
-    },
-    {
       "domain_suffix": [
-        "bintray.com",
-        "whatsapp.biz",
+        "wa.me",
+        "whatsapp-plus.info",
+        "whatsapp-plus.me",
+        "whatsapp-plus.net",
+        "whatsapp.cc",
         "whatsapp.com",
-        "whatsapp.net"
-      ]
-    },
-    {
-      "domain_keyword": [
-        "whatsapp"
+        "whatsapp.info",
+        "whatsapp.net",
+        "whatsapp.org",
+        "whatsapp.tv",
+        "whatsappbrand.com"
       ]
     },
     {

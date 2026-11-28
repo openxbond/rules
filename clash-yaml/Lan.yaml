@@ -1,13 +1,11 @@
 # NAME: Lan
-# AUTHOR: blackmatrix7
-# REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2026-11-04 13:00:15
-# DOMAIN: 9
-# DOMAIN-SUFFIX: 115
+# REPO: https://github.com/openxbond/rules
+# DOMAIN: 14
+# DOMAIN-SUFFIX: 123
 # DOMAIN-KEYWORD: 0
 # IP-CIDR: 14
 # IP-CIDR6: 4
-# TOTAL: 142
+# TOTAL: 155
 payload:
   - DOMAIN,asusrouter.com
   - DOMAIN,instant.arubanetworks.com
@@ -151,3 +149,16 @@ payload:
   - IP-CIDR6,fc00::/7,no-resolve
   - IP-CIDR6,fe80::/10,no-resolve
   - IP-CIDR6,ff00::/8,no-resolve
+  - DOMAIN-SUFFIX,lan
+  - DOMAIN-SUFFIX,localdomain
+  - DOMAIN-SUFFIX,example
+  - DOMAIN-SUFFIX,invalid
+  - DOMAIN-SUFFIX,localhost
+  - DOMAIN-SUFFIX,test
+  - DOMAIN-SUFFIX,local
+  - DOMAIN-SUFFIX,internal
+  - DOMAIN,routerlogin.com
+  - DOMAIN,www.routerlogin.com
+  - DOMAIN,tplogin.cn
+  - DOMAIN,miwifi.com
+  - DOMAIN,www.miwifi.com

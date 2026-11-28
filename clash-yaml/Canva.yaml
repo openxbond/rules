@@ -1,0 +1,15 @@
+# NAME: Canva
+# REPO: https://github.com/openxbond/rules
+# DOMAIN: 0
+# DOMAIN-SUFFIX: 6
+# DOMAIN-KEYWORD: 0
+# IP-CIDR: 0
+# IP-CIDR6: 0
+# TOTAL: 6
+payload:
+  - DOMAIN-SUFFIX,affinity.api.serifservices.com
+  - DOMAIN-SUFFIX,affinity.studio
+  - DOMAIN-SUFFIX,affinity-beta.s3.amazonaws.com
+  - DOMAIN-SUFFIX,affinity-lessons.s3.amazonaws.com
+  - DOMAIN-SUFFIX,canva.com
+  - DOMAIN-SUFFIX,canvastatus.com

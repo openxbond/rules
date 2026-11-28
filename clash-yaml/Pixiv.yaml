@@ -1,0 +1,20 @@
+# NAME: Pixiv
+# REPO: https://github.com/openxbond/rules
+# DOMAIN: 0
+# DOMAIN-SUFFIX: 11
+# DOMAIN-KEYWORD: 0
+# IP-CIDR: 0
+# IP-CIDR6: 0
+# TOTAL: 11
+payload:
+  - DOMAIN-SUFFIX,ads-pixiv.net
+  - DOMAIN-SUFFIX,booth.pm
+  - DOMAIN-SUFFIX,fanbox.cc
+  - DOMAIN-SUFFIX,pixiv.co.jp
+  - DOMAIN-SUFFIX,pixiv.help
+  - DOMAIN-SUFFIX,pixiv.me
+  - DOMAIN-SUFFIX,pixiv.net
+  - DOMAIN-SUFFIX,pixiv.org
+  - DOMAIN-SUFFIX,pixiv-recommend.net
+  - DOMAIN-SUFFIX,pixivision.net
+  - DOMAIN-SUFFIX,pximg.net

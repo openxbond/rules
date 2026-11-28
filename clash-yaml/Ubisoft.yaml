@@ -1,0 +1,10 @@
+# NAME: Ubisoft
+# REPO: https://github.com/openxbond/rules
+# DOMAIN: 1
+# DOMAIN-SUFFIX: 0
+# DOMAIN-KEYWORD: 0
+# IP-CIDR: 0
+# IP-CIDR6: 0
+# TOTAL: 1
+payload:
+  - DOMAIN,uplaypc-s-ubisoft.cdn.ubi.com

@@ -14,7 +14,9 @@
         "steampowered.com.8686c.com",
         "steamstatic.com.8686c.com",
         "wmsjsteam.com",
-        "xz.pphimalayanrt.com"
+        "xz.pphimalayanrt.com",
+        "alibaba.cdn.steampipe.steamcontent.com",
+        "lv.queniujq.cn"
       ]
     },
     {
@@ -23,7 +25,20 @@
         "steamchina.com",
         "steamcontent.com",
         "steamserver.net",
-        "steamusercontent.com"
+        "steamusercontent.com",
+        "csgo.com.cn",
+        "csgo.wmsj.cn",
+        "dota2.com.cn",
+        "dota2.wmsj.cn",
+        "wmsjsteam.com",
+        "client-update.queniuqe.com",
+        "dl.steam.clngaa.com",
+        "st.dl.bscstorage.net",
+        "st.dl.eccdnx.com",
+        "st.dl.pinyuncloud.com",
+        "steampowered.com.8686c.com",
+        "steamstatic.com.8686c.com",
+        "gstore.val.manlaxy.com"
       ]
     }
   ]

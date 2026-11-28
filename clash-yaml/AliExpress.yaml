@@ -1,0 +1,13 @@
+# NAME: AliExpress
+# REPO: https://github.com/openxbond/rules
+# DOMAIN: 0
+# DOMAIN-SUFFIX: 4
+# DOMAIN-KEYWORD: 0
+# IP-CIDR: 0
+# IP-CIDR6: 0
+# TOTAL: 4
+payload:
+  - DOMAIN-SUFFIX,aliexpress.com
+  - DOMAIN-SUFFIX,aliexpress.us
+  - DOMAIN-SUFFIX,aliexpress.ru
+  - DOMAIN-SUFFIX,aliexpress-media.com

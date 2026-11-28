@@ -1,0 +1,11 @@
+# NAME: Wise
+# REPO: https://github.com/openxbond/rules
+# DOMAIN: 0
+# DOMAIN-SUFFIX: 2
+# DOMAIN-KEYWORD: 0
+# IP-CIDR: 0
+# IP-CIDR6: 0
+# TOTAL: 2
+payload:
+  - DOMAIN-SUFFIX,transferwise.com
+  - DOMAIN-SUFFIX,wise.com
